@@ -24,6 +24,7 @@
         fill: $themeColor;
       }
     }
+	
 
     a.previous {
       svg {
@@ -37,6 +38,15 @@
       line-height: rem(22px);
       margin: 0 rem(10px);
     }
+	
+	.prevp{
+	width: 29%;
+    float: left !important;
+	}
+	.nextp{
+    width: 70%;
+    float: right !important;
+	}
   }
 
   &.pagination-post {
