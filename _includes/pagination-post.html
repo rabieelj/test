@@ -4,9 +4,10 @@
     <div class="pagination pagination-post {{ include.extra_classes }}">
         {% if paginator.is_last != true %}
             <a href="{{ paginator.next_page_path }}">
-               
-                <span class="nextp">{{ site.translations.pagination.next_page | default: "Next" }} </span>
+               <div class="nextp">
+                <span class="text">{{ site.translations.pagination.next_page | default: "Next" }} </span>
 			 </a>	
+			 </div>
 			     {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path }}"> 
                
@@ -22,5 +23,5 @@
             </a>
 			
         {% endif %}
-    </div>
+    
 {% endif %}
