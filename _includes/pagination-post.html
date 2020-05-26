@@ -3,17 +3,19 @@
     {% assign next_posts = site.posts | where_exp:"post","post.is_generated != true" | where_exp:"post","post.path != page.path" | where_exp:"post","post.date <= page.date" %}
     <div class="pagination pagination-post {{ include.extra_classes }}">
         {% if paginator.is_last != true %}
+		<div class="nextp">
             <a href="{{ paginator.next_page_path }}">
-               <div class="nextp">
                 <span class="text">{{ site.translations.pagination.next_page | default: "Next" }} </span>
 			 </a>	
 			 </div>
 			     {% if paginator.previous_page %}
+				 <div class="prevp">
         <a href="{{ paginator.previous_page_path }}"> 
-               
-                <span class="prevp"> {{ site.translations.pagination.previous_page | default: "Prev" }}</span>
-			 </a>
-        </a>
+          <span class="text"> {{ ste.translations.pagination.previous_page | default: "Prev" }}</span>
+				
+	   </a>
+			     </div>
+         
     {% endif %}
 	
            
