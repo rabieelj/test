@@ -9,7 +9,7 @@
 			 </a>	
 			 </div>
 			 
-			  {% else  %}
+			  {% else if paginator.is_last != false  %}
 			  <div class="nextp">
             <a href="{{ paginator.next_page_path }}">
                 <span class="text">{{ site.translations.pagination.next_page | default: "Next" }} </span>
