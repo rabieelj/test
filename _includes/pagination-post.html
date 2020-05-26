@@ -10,7 +10,7 @@
 			     {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path }}"> 
                
-                <span class="text">{{ site.translations.pagination.previous_page | default: "Prev" }} <svg class="arrow"><use xlink:href="#icon-arrow-left"></use></svg></span>
+                <span class="text"> <svg class="arrow"><use xlink:href="#icon-arrow-left"></use></svg>{{ site.translations.pagination.previous_page | default: "Prev" }}</span>
 			 </a>
         </a>
     {% endif %}
