@@ -39,14 +39,7 @@
       margin: 0 rem(10px);
     }
 	
-	.prevp{
-	width: 29%;
-    float: left !important;
-	}
-	.nextp{
-    width: 70%;
-    float: right !important;
-	}
+
   }
 
   &.pagination-post {
@@ -90,11 +83,19 @@
 
       .text {
         width: 100%;
-        display: flex;
         align-items: center;
         justify-content: space-between;
         padding: rem(15px) 0;
+		text-align: center;
       }
     }
   }
 }
+	.prevp {
+	width: 29%;
+    float: left !important;
+	}
+	.nextp {
+    width: 70%;
+    float: right !important;
+	}
