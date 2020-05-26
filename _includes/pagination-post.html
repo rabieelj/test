@@ -8,8 +8,10 @@
                 <span class="text">{{ site.translations.pagination.next_page | default: "Next" }} <svg class="arrow"><use xlink:href="#icon-arrow-right"></use></svg></span>
 			 </a>	
 			     {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="previous" onclick="ga('send', 'event', 'pagination', 'click', 'page previous')">
-            <svg><use xlink:href="#icon-arrow-right"></use></svg>
+        <a href="{{ paginator.previous_page_path }}"> 
+               
+                <span class="text">{{ site.translations.pagination.previous_page | default: "Prev" }} <svg class="arrow"><use xlink:href="#icon-arrow-right"></use></svg></span>
+			 </a>
         </a>
     {% endif %}
 			 <span class="text">{{ site.translations.pagination.previous_page | default: "Prev" }} <svg class="arrow"><use xlink:href="#icon-arrow-right"></use></svg></span>
