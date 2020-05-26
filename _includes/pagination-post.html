@@ -4,9 +4,6 @@
     <div class="pagination pagination-post {{ include.extra_classes }}">
         {% if paginator.is_last != true %}
             <a href="{{ paginator.next_page_path }}">
-                {% if include.progressBar %}
-                    {% include progress-bar.html %}
-                {% endif %}
                 <span class="text">{{ site.translations.pagination.next_page | default: "Next Page" }} <svg class="arrow"><use xlink:href="#icon-arrow-right"></use></svg></span>
             </a>
         {% else if next_posts.first %}
