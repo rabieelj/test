@@ -1,5 +1,5 @@
 ---
-date: 2020-05-26 18:35:18
+date: 2020-05-26T18:35:18.000Z
 layout: post
 title: Why Age Doesn't Change Some People?
 description: Why Age Doesn't Change Some People?
@@ -14,6 +14,10 @@ paginate: true
 <!--StartFragment-->
 
 No matter how people aged, an irresponsible person remains the same. Irresponsibility is an integrity issue. This always comes to mind. Unknowingly, the real reason why some people don't change despite old age is not due to mental issues but because of psychological condition. This is called Little Prince Syndrome, when it happens in adulthood, is otherwise called Peter Pan Syndrome. This is a typical condition which regularly results from an excessively defensive mother or father, or a parent who gives their child unfenced, and a lot of recognition and consideration, during youth and puberty. Such parental conduct is additionally now and again alluded to as passionate incest.*
+
+
+
+--page-break--
 
 This is generally thought of as a circumstance where a developed man is adolescent and youthful, in spite of his age. Be that as it may, in the present culture, with so much helicopter child rearing, it's sheltered to expect that the two people can show these practices. Little Prince (or Princess) Syndrome is identified with, however not indistinguishable from, Emperor Syndrome, a term is fundamentally used to portray Chinese young men without any kin who carry on like little dictators.
 
