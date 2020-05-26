@@ -1,5 +1,5 @@
 backend:
-  name: github_username
+  name: git-gateway
   branch: master
 publish_mode: editorial_workflow
 media_folder: "assets/img/uploads"
