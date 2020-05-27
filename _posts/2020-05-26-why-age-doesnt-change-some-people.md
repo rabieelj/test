@@ -9,7 +9,6 @@ category: blog
 tags:
   - blog
 author: thiagorossener
-paginate: false
 ---
 <!--StartFragment-->
 
