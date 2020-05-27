@@ -67,7 +67,7 @@ paginate_content:
     - posts
   auto: false
   separator: "--page-break--"
-  permalink: "/:num/"
+  permalink: "/:num/blog"
   seo_canonical: true
   properties:
     part:
