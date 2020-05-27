@@ -30,25 +30,49 @@
                 
 
                 {% include toc.html %}
-            
-				   <script>
-					    var str = document.referrer;
-						var fb =  str.search("https://facebook.com");
-						var lm =  str.search("/");
+				
+				<script>
+					var str = document.referrer;
+					  
+					{% capture allpost %}
+					[
+					{% for post in site.posts %}
+						{{ content }}
+						{% endfor  %}
+					]
+					{% endcapture %}
+					var allpost = {{allpost | strip_newlines}}
+									
+
+					{% capture parag %}
+					[				
+							{{ content }}
+					 {% include pagination-post.html %}
+												
+					{% endcapture %}
+					var parag = {{parag | strip_newlines}}
+					var fb =  str.search("facebook.com");
+					var lm =  str.search("/");
+					if(fb === -1 && lm === -1){
+                    document.write(parag);                   
+					} else {
+					
+					document.write(allpost); 
+					}
+					
+					
+					
+					
+				</script>
+	
 
 
-						if(fb === -1 && lm === 6){
-						 {{ content }}
-					  {% include pagination-post.html %}
-						}else{
-							{% for post in site.posts %}
-										{{ content }}
-										{% endfor  %}
-													}
 
-					</script>   
-   
-			
+  {% for post in site.posts %}
+	{{ content }}
+	{% endfor  %}
+	
+
 
 </script>
 
