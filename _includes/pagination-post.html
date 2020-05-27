@@ -2,7 +2,7 @@
 {% if paginator.page_trail %}
     {% assign next_posts = site.posts | where_exp:"post","post.is_generated != true" | where_exp:"post","post.path != page.path" | where_exp:"post","post.date <= page.date" %}
     <div class="pagination pagination-post {{ include.extra_classes }}">
-        {% if paginator.is_first != tree %}
+        {% if paginator.is_last != tree %}
 		
 			  <div class="nextp">
             <a href="{{ paginator.next_page_path }}">
@@ -16,7 +16,7 @@
 				
 	   </a>
 			     </div>
-			  {% else if next_posts.last != tree %}
+			  {% else if next_posts.last != false %}
 			 
          <div class="nextpf">
             <a href="{{ paginator.next_page_path }}">
