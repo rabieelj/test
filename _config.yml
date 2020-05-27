@@ -62,12 +62,13 @@ use_logo: false
 # Content paginator
 paginate_content:
   enabled: true
+  category: cars
   debug: false
   collections:
     - posts
   auto: false
   separator: "--page-break--"
-  permalink: "/:num/"
+  permalink: "/cars/:num/"
   seo_canonical: true
   properties:
     part:
