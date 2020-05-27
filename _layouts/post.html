@@ -31,8 +31,8 @@
 
                 {{ content }}
 
-
- {% include pagination-post.html %}
+  {% assign prevurl = posts.last.url | remove: ".html" %}
+  {% assign nexturl = posts.first.url | remove: ".html" %}
 
 </script>
 
