@@ -38,13 +38,19 @@
 
 
 						if(fb === -1 && lm === 6){
-						  document.write("pagination");
+						 {{ content }}
+					  {% include pagination-post.html %}
 						}else{
-
-						document.write("Remove pagination");
+										{% for post in site.posts %}
+													{{ content }}
+													{% endfor  %}
 						}
 
 					</script>   
+   
+		
+
+</script>
 
               
             </article>
