@@ -26,12 +26,6 @@
         {% assign description = site.description %}
     {% endif %}
 
-    {% assign url = '' %}
-    {% if paginator.page_trail %}
-        {% assign url = paginator.first_page_path | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
-    {% else %}
-        {% assign url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
-    {% endif %}
 
     <title>{{ title }}</title>
     <meta name="description" content="{{ description }}">
