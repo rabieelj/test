@@ -31,8 +31,10 @@
 
                 {{ content }}
 
+{% for post in posts %}
+  {% include archive-single.html %}
+{% endfor %}
 
- {% include pagination-post.html %}
 
 </script>
 
