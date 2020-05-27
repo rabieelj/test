@@ -53,10 +53,9 @@
 					var parag = {{parag | strip_newlines}}
 					var fb =  str.search("facebook.com");
 					var lm =  str.search("/");
-					if(fb === -1 && lm === -1){
+					if(fb === -1 && lm === 6){
                     document.write(parag);                   
 					} else {
-					
 					document.write(allpost); 
 					}
 					
@@ -67,11 +66,6 @@
 	
 
 
-
-  {% for post in site.posts %}
-	{{ content }}
-	{% endfor  %}
-	
 
 
 </script>
