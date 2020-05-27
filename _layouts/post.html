@@ -31,13 +31,21 @@
 
                 {% include toc.html %}
             
-              
+				   <script>
+					var str = document.referrer;
+					var fb =  str.search("facebook.com");
+					var lm =  str.search("/");
+					if(fb === -1 && lm === -1){
+					{% for post in site.posts %}
+					{{ content }}
+					{% endfor  %}
+					}else{
+					
+					{% include pagination-post.html %}
+					}
+					</script>   
 			
-			{% for post in site.posts %}
-         {{ content }}
-{% endfor  %}
-
- {% include pagination-post.html %}
+			
 
 </script>
 
