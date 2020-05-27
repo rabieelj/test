@@ -8,7 +8,7 @@
 
         <section class="post {% if site.two_columns_layout %}two-columns{% else %}one-column{% endif %}">
             <article role="article" class="post-content">
-			 {% assign page.paginate = "false" %}
+			 {% assign page.paginate = false %}
 			{{ page.paginate }}
                 <p class="post-info">
                     {% if page.date %}
