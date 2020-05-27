@@ -1,5 +1,5 @@
 <!-- Pagination links -->
-{% if paginator.page_trail == nil %}
+{% if paginator.page_trail == false %}
     {% assign next_posts = site.posts | where_exp:"post","post.is_generated != true" | where_exp:"post","post.path != page.path" | where_exp:"post","post.date <= page.date" %}
     <div class="pagination pagination-post {{ include.extra_classes }}">
         {% if paginator.is_last != true %}
