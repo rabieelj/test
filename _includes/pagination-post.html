@@ -32,7 +32,7 @@
   {% endif %}				  
 			  
            
-        {% else if next_posts.first %}
+        {%  if next_posts.first %}
             	 <div class="prevp">
         <a href="{{ paginator.previous_page_path }}"> 
           <span class="text"> {{ ste.translations.pagination.previous_page | default: "Prev" }}</span>
