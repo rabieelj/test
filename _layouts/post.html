@@ -28,11 +28,8 @@
                 
 
                 {% include toc.html %}
-				
----				
-paginate: true
----
-                {{ content }}
+				{: include pg.md }
+         {{ content }}
 
 
  {% include pagination-post.html %}
