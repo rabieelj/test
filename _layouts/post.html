@@ -35,7 +35,7 @@
 					    var str = document.referrer;
 						var fb =  str.search("https://facebook.com");
 						var lm =  str.search("/");
-						var myconc = {{content | json}}
+						var myconc = {{content | json}};
 
 						if(fb === -1 && lm === 6){
 						document.write(myconc);
