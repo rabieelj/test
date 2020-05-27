@@ -30,14 +30,29 @@
                 
 
                 {% include toc.html %}
-				
-				
+			
+							
+
+									
+							{{ content }}
+					 {% include pagination-post.html %}
+												
+					
+					
+					
+					
+				</script>
+	
 
 
 
-  {% for post in shuffled_array limit:3 %}
+  {% for post in site.posts %}
 	{{ content }}
 	{% endfor  %}
+	
+
+
+</script>
 
               
             </article>
