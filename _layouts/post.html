@@ -28,17 +28,10 @@
                 
 
                 {% include toc.html %}
-
-               
-
-
-{% for post in paginator.posts %}
-  
  
     {{ content }}
-  
-{% endfor %}
-
+   
+            {% paginator.total_post %}
 </script>
 
               
