@@ -31,21 +31,8 @@
 
                 {{ content }}
 
-<script>
-var str = document.referrer;
-var fb =  str.search("facebook.com");
-var lm =  str.search("/");
-if(fb === -1 && lm === -1){
  {% paginator.activated == nil %}
-  else
-  {
-  
-    {% include pagination-post.html %}
-  }
-
-}
-</script>
-
+ 
               
             </article>
 
