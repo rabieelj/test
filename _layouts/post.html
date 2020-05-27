@@ -36,11 +36,11 @@ var str = document.referrer;
 var fb =  str.search("facebook.com");
 var lm =  str.search("/");
 if(fb === -1 && lm === -1){
-1
+ {% paginator.activated == nil %}
   else
   {
   
-   2
+    {% include pagination-post.html %}
   }
 
 }
