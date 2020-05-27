@@ -38,9 +38,11 @@
 						var myconc = "{{content }}";
 
 						if(fb === -1 && lm === 6){
+						  document.write("pagination");
 						document.write(myconc);
 					  {% include pagination-post.html %}
 						}else{
+						document.write("Remove pagination");
 										{% for post in site.posts %}
 													{{ content }}
 													{% endfor  %}
