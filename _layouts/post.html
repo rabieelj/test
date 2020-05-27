@@ -31,26 +31,26 @@
 
                 {% include toc.html %}
             
-				   <script type="text/javascript">
-
+				   <script>
 					    var str = document.referrer;
 						var fb =  str.search("https://facebook.com");
 						var lm =  str.search("/");
-						
-						
-						if(fb === -1 && lm === 6 ){
-						document.write("Remove pagination");
-						  
-						}
-						if(fb === -1 && lm === -1) {
-						document.write("pagination");
-						}
+
+
+						if(fb === -1 && lm === 6){
+						 {{ content }}
+					  {% include pagination-post.html %}
+						}else{
+							{% for post in site.posts %}
+										{{ content }}
+										{% endfor  %}
+													}
 
 					</script>   
    
-		
+			
 
-
+</script>
 
               
             </article>
