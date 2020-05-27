@@ -4,13 +4,13 @@
     <body class="has-push-menu">
         {% include minutes-to-read.html %}
         {% include svg-icons.html %}
-		{% assign  page.paginate.false %}
+		{% page.paginate <= "false" %}
         {% include header.html %}
 
         <section class="post {% if site.two_columns_layout %}two-columns{% else %}one-column{% endif %}">
             <article role="article" class="post-content">
 			 
-			{{ molz }}
+			
                 <p class="post-info">
                     {% if page.date %}
                         <svg class="icon-calendar" id="date"><use xlink:href="#icon-calendar"></use></svg>
