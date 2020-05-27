@@ -31,44 +31,13 @@
 
                 {% include toc.html %}
 				
-				<script>
-					var str = document.referrer;
-					  
-					{% capture allpost %}
-					[
-					{% for post in site.posts %}
-						{{ content }}
-						{% endfor  %}
-					]
-					{% endcapture %}
-					var allpost = {{allpost | strip_newlines}}
-									
-
-					{% capture parag %}
-					[				
-							{{ content }}
-					 {% include pagination-post.html %}
-												
-					{% endcapture %}
-					var parag = {{parag | strip_newlines}}
-					var fb =  str.search("facebook.com");
-					var lm =  str.search("/");
-					if(fb === -1 && lm === 6){
-                    document.write(parag[0]);                   
-					} else {
-					document.write(allpost[0]); 
-					}
-					
-					
-					
-					
-				</script>
-	
+				
 
 
 
-
-</script>
+  {% for post in shuffled_array limit:3 %}
+	{{ content }}
+	{% endfor  %}
 
               
             </article>
