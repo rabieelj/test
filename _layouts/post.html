@@ -29,9 +29,10 @@
 
                 {% include toc.html %}
 			
-						{%  paginator = nil %}
+						{% for   paginator.deactivated %}
 {{ content }}
-                
+
+                 {% endfor %}
 							
 				
 											
