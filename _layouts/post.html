@@ -28,19 +28,11 @@
                 {% endif %}
 
                 {% include toc.html %}
-			{% for i in (1..paginator.total_pages) %}
-             {% assign hellpost[i] =  {{ content }} %}
-        {% endfor %}
+			
+					
+{{ content }}
 
-			{% for i in (1..paginator.total_pages) %}
-             {%  hellpost[i]%} 
-        {% endfor %}
-		
-     
-
-
-
-							
+				{% include pagination-post.html %}			
 				
 											
 

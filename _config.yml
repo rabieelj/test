@@ -63,6 +63,8 @@ use_logo: false
 paginate_content:
   enabled: true
   debug: false
+  category: blog
+  tag: cool
   collections:
     - posts
   auto: false
