@@ -31,6 +31,7 @@
 				
 			{% if page.paginate == true %}	
               {% assign page.paginte = false %}
+			  {{ page.paginate }}
 			  {% endif %}
 	{{ page.paginate }}				
 {{ content }}
