@@ -29,10 +29,8 @@
 
                 {% include toc.html %}
 			
-			  
-			  {% capture page.paginate %}false{% endcapture %}
-			 
-	{{ page.paginate }}				
+			  			 
+	{{ page.paginate = false }}				
 {{ content }}
 
 
