@@ -28,10 +28,9 @@
                 {% endif %}
 
                 {% include toc.html %}
-			
-						{%  page.paginator.deactivate %}
-{{ content }}
-
+		{% for post in paginator.posts %}
+  <h1>{{ post.title }}</h1>
+{% endfor %}
 							
 				
 											
