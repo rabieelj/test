@@ -2,7 +2,10 @@
 date: 2020-05-29T05:16:26.000Z
 layout: post
 title: "Reconnecting With the Old People in Your Life: A Source of Sheer Joy"
-description: People come in touch with you in your lifespan. Not everyone stays but leaves.
+description: People come in touch with you in your lifespan. Not everyone stays
+  but leaves. That is life. But sometimes, if you wish, you may reconnect with
+  the old people in your life years later magically through old emails, old
+  phone numbers or even social media.
 image: /assets/img/uploads/team-spirit-2448837_640.jpg
 optimized_image: /assets/img/uploads/team-spirit-2448837_640.jpg
 category: blog
