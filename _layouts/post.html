@@ -28,9 +28,13 @@
                 {% endif %}
 
                 {% include toc.html %}
+				
 			
-			  			 
-	{{ page.paginate = false }}				
+              {% assign page.paginte = nil %}
+			
+		
+			 
+	{{ page.paginate }}				
 {{ content }}
 
 
