@@ -63,8 +63,7 @@ use_logo: false
 paginate_content:
   enabled: true
   debug: false
-  category: blog
-  tag: cool
+  category: vp
   collections:
     - posts
   auto: false
