@@ -1,14 +1,12 @@
 name: Yongold
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+title: Yongold | A blog  for old people
+description: "Yongold is a blog care about old people "
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - old
+  - Young
 show_hero: true
+paginate: 10
 menu:
   - title: Home
     url: /
