@@ -29,9 +29,13 @@
 
                 {% include toc.html %}
 			
-						{% for post in paginator.posts %}
-{{ content }}
-{% endfor %}
+	
+
+{% if paginator.total_pages > 1 %}
+        {% for i in (1..paginator.total_pages) %}
+           {{ content }}
+        {% endfor %}
+{% endif %}
 
 
 							
