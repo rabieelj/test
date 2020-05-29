@@ -32,7 +32,9 @@
              {% assign hellpost[i] =  {{ content }} %}
         {% endfor %}
 
-		
+			{% for i in (1..paginator.total_pages) %}
+             {{  hellpost[i]}} 
+        {% endfor %}
 		
      
 
