@@ -28,12 +28,13 @@
                 {% endif %}
 
                 {% include toc.html %}
-				<script>
-			    var paginate = entry.getIn(['data', 'paginate']);
-				document.write(paginate);
-				</script>
 				
-              		
+			
+              
+			
+		{% increment page.paginte %}
+			 
+	{{ page.paginate }}				
 {{ content }}
 
 
