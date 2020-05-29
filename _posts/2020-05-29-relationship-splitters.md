@@ -1,5 +1,5 @@
 ---
-date: 2020-05-29 23:31:52
+date: 2020-04-01 23:50:48
 layout: post
 title: Relationship Splitters
 description: There is a mechanical behavior that is so prevalent and so normal
