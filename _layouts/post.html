@@ -30,13 +30,11 @@
                 {% include toc.html %}
 				
 			
-              
+              {% assign paginte = false %}
 			
-		{% increment page.paginte %}
-		{% increment page.paginte %}
-		{% increment page.paginte %}
+		
 			 
-	{{ page.paginate }}				
+	{{ paginate }}				
 {{ content }}
 
 
