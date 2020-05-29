@@ -29,7 +29,7 @@
 
                 {% include toc.html %}
 			{% for i in (1..paginator.total_pages) %}
-             {% assign hellpost +=  {{ content }} %}
+             {% assign hellpost[i] =  {{ content }} %}
         {% endfor %}
 
 		
