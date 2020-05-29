@@ -28,11 +28,10 @@
                 {% endif %}
 
                 {% include toc.html %}
-				
-			{% if page.paginate == true %}	
-              {% assign page.paginte = false %}
-			  {{ page.paginate }}
-			  {% endif %}
+			
+			  
+			  {% capture page.paginate %}false{% endcapture %}
+			 
 	{{ page.paginate }}				
 {{ content }}
 
