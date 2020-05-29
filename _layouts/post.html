@@ -29,16 +29,8 @@
 
                 {% include toc.html %}
 				
-			
-              {% assign page.paginte = "maja" %}
-			
-		
-			 
-	{{ page.paginate }}				
-{{ content }}
-
-
-		 
+                  {{ content }}
+				{% include pagination-post.html %}			
 				
 											
 
