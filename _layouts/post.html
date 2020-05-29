@@ -29,7 +29,9 @@
 
                 {% include toc.html %}
 				
-			{% assign page.paginate = 0 %}		
+			{% If page.paginate == true %}	
+              {% assign page.paginte = false %}
+			  {% endif %}
 	{{ page.paginate }}				
 {{ content }}
 
