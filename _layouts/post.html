@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.language }}" class="no-js">
+{% assign post.paginate = false %}	
     {% include head.html %}
     <body class="has-push-menu">
         {% include minutes-to-read.html %}
@@ -28,7 +29,7 @@
                 {% endif %}
 
                 {% include toc.html %}
-			{% assign post.paginate = false %}		
+				
 					
 {{ content }}
 
