@@ -1,12 +1,13 @@
 name: Yongold
-title: Yongold | A blog  for old people
-description: "Yongold is a blog care about old people "
+title: "Yongold | All you need to know about relationship "
+description: "Yongold is a blog care about relationship between people "
 tags:
   - blog
   - old
   - Young
-show_hero: true
-paginate: 10
+  - relationship
+show_hero: false
+paginate: ""
 menu:
   - title: Home
     url: /
