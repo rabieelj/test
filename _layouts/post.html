@@ -28,18 +28,12 @@
                 {% endif %}
 
                 {% include toc.html %}
-			
-{
-  "pages": [{% for post in paginator.posts %}
-    {% if forloop.first != true %},{% endif %}
-    {
-      "title": "{{ post.title }}",
-      "link": "{{ post.url }}"
-    }{% endfor %}
-  ]
-}
+			{% for i in (1..paginator.total_pages) %}
+             {% assign hellpost +=  {{ content }} %}
+        {% endfor %}
+
 		
-		 {{ content }}
+		
      
 
 
