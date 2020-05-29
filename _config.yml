@@ -62,6 +62,7 @@ use_logo: false
 # Content paginator
 paginate_content:
   enabled: true
+  category: vp
   debug: false
   category: vp
   collections:
