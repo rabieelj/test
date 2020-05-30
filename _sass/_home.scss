@@ -92,7 +92,7 @@
   }
 
   .category {
-    display: none;
+    display: none !important;
     height: rem(36px);
     line-height: rem(36px);
     text-transform: uppercase;
