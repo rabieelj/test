@@ -7,7 +7,7 @@ tags:
   - Young
   - relationship
 show_hero: false
-paginate: -3
+paginate: 0
 menu:
   - title: Home
     url: /
