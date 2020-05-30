@@ -1,15 +1,13 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: Yongold
+title: "Yongold | All you need to know about relationship "
+description: "Yongold is a blog care about relationship between people "
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
-email: youremail@xyz.com
-disqus_username: disqus_username
+  - old
+  - Young
+  - relationship
 show_hero: true
+paginate: ""
 menu:
   - title: Home
     url: /
@@ -19,3 +17,5 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
+email: youremail@xyz.com
+disqus_username: disqus_username
