@@ -6,7 +6,7 @@ tags:
   - old
   - Young
   - relationship
-show_hero: false
+show_hero: true
 paginate: ""
 menu:
   - title: Home
