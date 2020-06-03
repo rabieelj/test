@@ -1,12 +1,12 @@
-name: Yongold
-title: "Yongold | All you need to know about relationship "
-description: "Yongold is a blog care about relationship between people "
+name: "Yongold "
+title: Yongold |  All you need to know about relationship.
+description: Yongold is a blog care about relationship between people .
 tags:
   - blog
   - old
   - Young
   - relationship
-show_hero: true
+show_hero: false
 paginate: ""
 menu:
   - title: Home
