@@ -1,12 +1,12 @@
-name: Yonglod
-title: Yongold |  All you need to know about relationship
-description: Yongold is a blog care about relationship between people .
+name: Olderme
+title: Olderme  All you need to know about relationship
+description: Olderme  is a blog care about relationship between people
 tags:
   - blog
   - old
   - Young
   - relationship
-show_hero: false
+show_hero: true
 paginate: ""
 menu:
   - title: Home
