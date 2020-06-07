@@ -1,5 +1,5 @@
-name: Yonglodd
-title: Yongold |  All you need to know about relationship.
+name: Yonglod
+title: Yongold |  All you need to know about relationship
 description: Yongold is a blog care about relationship between people .
 tags:
   - blog
@@ -17,5 +17,5 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@xyz.com
+email: ""
 disqus_username: disqus_username
