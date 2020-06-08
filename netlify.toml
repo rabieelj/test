@@ -7,4 +7,4 @@
   command = "gulp build-preview"
 # build a branch with debug (optional)
 [context.branch-deploy]
-  command = "gulp build-debug"
+  command = "gulp build-debug" 
